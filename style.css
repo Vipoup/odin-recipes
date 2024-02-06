@@ -1,0 +1,46 @@
+body {
+    font-family: Arial,'Times New Roman', Times, serif;
+    background: rgb(17 24 39);
+    color: whitesmoke;
+    text-align: center;
+}
+
+img,
+iframe {
+    height: 400px;
+    width: auto;
+}
+
+p {
+    text-wrap: balance;
+}
+
+ul,
+ol {
+    margin: auto;
+    width: 50%;
+}
+
+li {
+    font-size: large;
+    text-align: left;
+}
+
+.centered-list {
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+a:link,
+a:visited {
+    color:#ffffff;
+}
+
+a:hover {
+    color:#ffcc00;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(145, 255, 145);
+}
