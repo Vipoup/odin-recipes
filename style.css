@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
 * {
     font-family: Arial,'Times New Roman', Times, serif;
     background: rgb(17 24 39);
@@ -46,6 +54,17 @@ button {
     height: 250px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.display-nice li a {
+    background: transparent;
+    width: 250px;
+    height: 270px;
+    padding: 0px auto;
+    display: block;
+    margin-top: -20px;
 }
 
 a:link,
@@ -55,4 +74,16 @@ a:visited {
 
 a:hover {
     color:#ffcc00;
+}
+
+.img-basil-ck {
+    background-image: url('./images/spicy-basil-ck.jpg');
+}
+
+.img-whooper {
+    background-image: url('./images/whooper.jpg');
+}
+
+.img-foot-lettuce {
+    background-image: url('./images/foot-lettuce.jpg');
 }
