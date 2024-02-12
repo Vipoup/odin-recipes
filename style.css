@@ -52,8 +52,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
-    gap: 16px;
+    flex-flow: wrap;
+    gap: 8%;
 }
 
 .display-nice li {
