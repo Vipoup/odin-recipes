@@ -24,16 +24,11 @@ p {
     text-wrap: balance;
 }
 
-ul,
-ol {
-    margin: auto;
-    width: 50%;
-}
-
 li {
     font-size: large;
     text-align: left;
     padding-left: 5px;
+    margin: 0;
 }
 
 button {
@@ -42,16 +37,28 @@ button {
     color:black;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pg-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .display-nice {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-flow: row wrap;
+    gap: 16px;
 }
 
 .display-nice li {
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 40px;
@@ -66,6 +73,21 @@ button {
     display: block;
     margin-top: -20px;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg-list {
+    display: flex;
+    flex-direction: column;
+    /* flex: initial; */
+    gap: 16px;
+    max-width: 70%;
+}
+
 
 a:link,
 a:visited {
